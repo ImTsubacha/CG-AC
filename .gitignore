@@ -1,0 +1,66 @@
+# ==========================================
+# Unity 6 / Universal .gitignore
+# ==========================================
+
+# --- Unity 一時生成フォルダ（サブフォルダ内も全階層除外） ---
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+**/.utmp/
+
+# --- IDE・コードエディタ（VS / VS Code / Rider）関連 ---
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# --- OS・環境依存ファイル ---
+.DS_Store
+Thumbs.db
+.gradle/
+
+# --- Unity 6 自動生成・キャッシュファイル ---
+**/UIElementsSchema/
+**/[Aa]ssets/[Ss]ceneDependencyCache*
+**/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# Addressables / パッケージ生成物
+**/ServerData/
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+**/[Aa]ssets/Addressables_Temp/
+
+# --- ビルド成果物・パッケージ ---
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
+*.exe
+
+# Blender バックアップファイル
+*.blend1
+*.blend1.meta
+
+# クラッシュログ・テスト結果
+sysinfo.txt
+mono_crash.*
